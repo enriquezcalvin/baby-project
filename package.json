@@ -1,0 +1,50 @@
+{
+  "name": "baby-project",
+  "version": "1.0.0",
+  "description": "App for Baby Care",
+  "productName": "Baby Care App",
+  "cordovaId": "org.cordova.quasar.app",
+  "author": "Calvin Enriquez",
+  "private": true,
+  "main": "server/index.js",
+  "scripts": {
+    "lint": "eslint --ext .js,.vue src",
+    "test": "echo \"No test specified\" && exit 0"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "body-parser": "~1.0.1",
+    "connect-history-api-fallback": "^1.5.0",
+    "express": "~4.0.0",
+    "fs": "0.0.1-security",
+    "moment": "^2.21.0",
+    "moment-timezone": "^0.5.14",
+    "mongoose": "5.0.0",
+    "socket.io": "^2.1.0",
+    "socket.io-client": "^2.1.0",
+    "uws": "^9.14.0",
+    "vue-socket.io": "^2.1.1-b"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.2.1",
+    "eslint": "^4.18.2",
+    "eslint-config-standard": "^11.0.0",
+    "eslint-friendly-formatter": "^3.0.0",
+    "eslint-loader": "^2.0.0",
+    "eslint-plugin-import": "^2.9.0",
+    "eslint-plugin-node": "^6.0.1",
+    "eslint-plugin-promise": "^3.7.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "eslint-plugin-vue": "^4.3.0",
+    "quasar-cli": "^0.15.14"
+  },
+  "engines": {
+    "node": ">= 8.9.0",
+    "npm": ">= 5.6.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 10"
+  ]
+}
